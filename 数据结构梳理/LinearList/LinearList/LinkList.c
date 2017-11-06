@@ -121,7 +121,7 @@ int LinkListInsert(LinkList *L, int i, ElemType e)
     删除第i个节点
  
  */
-int LinkListDelete(LNode *L, int i, ElemType *e)
+int LinkListDelete(LinkList *L, int i, ElemType *e)
 {
     LNode *p = L;//设p为第i-1个结点
     
@@ -141,6 +141,28 @@ int LinkListDelete(LNode *L, int i, ElemType *e)
     }
 }
 
+
+
+/**
+ 
+ 5.清空单链表 时间复杂度为O(n)
+ 
+ */
+int ClearLinkList(LinkList *L)
+{
+    LNode *p, *q;
+    p = L->next;
+    
+    while (p != NULL) {
+        q = p->next;
+        free(p);
+        p = q;
+    }
+    
+    L->next = NULL;
+    
+    return 0;
+}
 
 
 

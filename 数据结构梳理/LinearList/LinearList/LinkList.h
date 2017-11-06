@@ -11,6 +11,8 @@
 
 #include <stdio.h>
 #include <malloc/malloc.h>
+#include <stdlib.h>
+
 
 /**
  首先声明一个单链表的结构
@@ -63,7 +65,14 @@ int LinkListInsert(LinkList *L, int i, ElemType e);
     删除第i个节点
  
  */
-int LinkListDelete(LNode *L, int i, ElemType *e);
+int LinkListDelete(LinkList *L, int i, ElemType *e);
+
+/**
+ 
+ 5.清空单链表 时间复杂度为O(n)
+ 
+ */
+int ClearLinkList(LinkList *L);
 
 
 #endif /* LinkList_h */

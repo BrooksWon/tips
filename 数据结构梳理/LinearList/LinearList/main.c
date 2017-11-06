@@ -114,5 +114,15 @@ int main(int argc, const char * argv[]) {
     // 删除第i个节点
     status = LinkListDelete(l3, 4, &xdata);
     
+    // 清空单链表
+    status = ClearLinkList(l3);
+    //输出链表中的数据
+    while (l3->next != NULL) {
+        LNode *node = l3->next;
+        printf("%d ", node->data);
+        l2 = node;
+    }
+    printf("\n");
+    
     return 0;
 }
