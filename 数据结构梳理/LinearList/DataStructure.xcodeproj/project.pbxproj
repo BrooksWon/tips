@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9857C81E1FA557D10018BFBA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9857C81D1FA557D10018BFBA /* main.c */; };
-		9857C8261FA558600018BFBA /* LinearList.c in Sources */ = {isa = PBXBuildFile; fileRef = 9857C8241FA558600018BFBA /* LinearList.c */; };
-		9875BFC31FA5D83D00588B2A /* LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 9875BFC11FA5D83D00588B2A /* LinkList.c */; };
+		985C34F41FBFF0A0006A59D5 /* LinearList.c in Sources */ = {isa = PBXBuildFile; fileRef = 985C34EF1FBFF0A0006A59D5 /* LinearList.c */; };
+		985C34F51FBFF0A0006A59D5 /* LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 985C34F11FBFF0A0006A59D5 /* LinkList.c */; };
+		985C34F61FBFF0A0006A59D5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 985C34F31FBFF0A0006A59D5 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,12 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9857C81A1FA557D10018BFBA /* LinearList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinearList; sourceTree = BUILT_PRODUCTS_DIR; };
-		9857C81D1FA557D10018BFBA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		9857C8241FA558600018BFBA /* LinearList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinearList.c; sourceTree = "<group>"; };
-		9857C8251FA558600018BFBA /* LinearList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearList.h; sourceTree = "<group>"; };
-		9875BFC11FA5D83D00588B2A /* LinkList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkList.c; sourceTree = "<group>"; };
-		9875BFC21FA5D83D00588B2A /* LinkList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
+		9857C81A1FA557D10018BFBA /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
+		985C34EF1FBFF0A0006A59D5 /* LinearList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinearList.c; sourceTree = "<group>"; };
+		985C34F01FBFF0A0006A59D5 /* LinearList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearList.h; sourceTree = "<group>"; };
+		985C34F11FBFF0A0006A59D5 /* LinkList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkList.c; sourceTree = "<group>"; };
+		985C34F21FBFF0A0006A59D5 /* LinkList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
+		985C34F31FBFF0A0006A59D5 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,7 @@
 		9857C8111FA557D10018BFBA = {
 			isa = PBXGroup;
 			children = (
-				9857C81C1FA557D10018BFBA /* LinearList */,
+				985C34EE1FBFF0A0006A59D5 /* DataStructure */,
 				9857C81B1FA557D10018BFBA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,29 +55,29 @@
 		9857C81B1FA557D10018BFBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9857C81A1FA557D10018BFBA /* LinearList */,
+				9857C81A1FA557D10018BFBA /* DataStructure */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9857C81C1FA557D10018BFBA /* LinearList */ = {
+		985C34EE1FBFF0A0006A59D5 /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
-				9857C81D1FA557D10018BFBA /* main.c */,
-				9857C8251FA558600018BFBA /* LinearList.h */,
-				9857C8241FA558600018BFBA /* LinearList.c */,
-				9875BFC21FA5D83D00588B2A /* LinkList.h */,
-				9875BFC11FA5D83D00588B2A /* LinkList.c */,
+				985C34EF1FBFF0A0006A59D5 /* LinearList.c */,
+				985C34F01FBFF0A0006A59D5 /* LinearList.h */,
+				985C34F11FBFF0A0006A59D5 /* LinkList.c */,
+				985C34F21FBFF0A0006A59D5 /* LinkList.h */,
+				985C34F31FBFF0A0006A59D5 /* main.c */,
 			);
-			path = LinearList;
+			path = DataStructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9857C8191FA557D10018BFBA /* LinearList */ = {
+		9857C8191FA557D10018BFBA /* DataStructure */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9857C8211FA557D10018BFBA /* Build configuration list for PBXNativeTarget "LinearList" */;
+			buildConfigurationList = 9857C8211FA557D10018BFBA /* Build configuration list for PBXNativeTarget "DataStructure" */;
 			buildPhases = (
 				9857C8161FA557D10018BFBA /* Sources */,
 				9857C8171FA557D10018BFBA /* Frameworks */,
@@ -87,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = LinearList;
+			name = DataStructure;
 			productName = LinearList;
-			productReference = 9857C81A1FA557D10018BFBA /* LinearList */;
+			productReference = 9857C81A1FA557D10018BFBA /* DataStructure */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9857C8151FA557D10018BFBA /* Build configuration list for PBXProject "LinearList" */;
+			buildConfigurationList = 9857C8151FA557D10018BFBA /* Build configuration list for PBXProject "DataStructure" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9857C8191FA557D10018BFBA /* LinearList */,
+				9857C8191FA557D10018BFBA /* DataStructure */,
 			);
 		};
 /* End PBXProject section */
@@ -129,9 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9857C8261FA558600018BFBA /* LinearList.c in Sources */,
-				9875BFC31FA5D83D00588B2A /* LinkList.c in Sources */,
-				9857C81E1FA557D10018BFBA /* main.c in Sources */,
+				985C34F41FBFF0A0006A59D5 /* LinearList.c in Sources */,
+				985C34F51FBFF0A0006A59D5 /* LinkList.c in Sources */,
+				985C34F61FBFF0A0006A59D5 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +244,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9857C8151FA557D10018BFBA /* Build configuration list for PBXProject "LinearList" */ = {
+		9857C8151FA557D10018BFBA /* Build configuration list for PBXProject "DataStructure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9857C81F1FA557D10018BFBA /* Debug */,
@@ -253,7 +253,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9857C8211FA557D10018BFBA /* Build configuration list for PBXNativeTarget "LinearList" */ = {
+		9857C8211FA557D10018BFBA /* Build configuration list for PBXNativeTarget "DataStructure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9857C8221FA557D10018BFBA /* Debug */,

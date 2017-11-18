@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9857C8191FA557D10018BFBA"
-               BuildableName = "LinearList"
-               BlueprintName = "LinearList"
-               ReferencedContainer = "container:LinearList.xcodeproj">
+               BuildableName = "DataStructure"
+               BlueprintName = "DataStructure"
+               ReferencedContainer = "container:DataStructure.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9857C8191FA557D10018BFBA"
-            BuildableName = "LinearList"
-            BlueprintName = "LinearList"
-            ReferencedContainer = "container:LinearList.xcodeproj">
+            BuildableName = "DataStructure"
+            BlueprintName = "DataStructure"
+            ReferencedContainer = "container:DataStructure.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9857C8191FA557D10018BFBA"
-            BuildableName = "LinearList"
-            BlueprintName = "LinearList"
-            ReferencedContainer = "container:LinearList.xcodeproj">
+            BuildableName = "DataStructure"
+            BlueprintName = "DataStructure"
+            ReferencedContainer = "container:DataStructure.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9857C8191FA557D10018BFBA"
-            BuildableName = "LinearList"
-            BlueprintName = "LinearList"
-            ReferencedContainer = "container:LinearList.xcodeproj">
+            BuildableName = "DataStructure"
+            BlueprintName = "DataStructure"
+            ReferencedContainer = "container:DataStructure.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

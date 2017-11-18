@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <Group
-      location = "group:Objective-C&#x4e2d;&#x96c6;&#x5408;&#x5bf9;&#x8c61;&#x7684;&#x62f7;&#x8d1d;"
-      name = "Objective-C&#x4e2d;&#x96c6;&#x5408;&#x5bf9;&#x8c61;&#x7684;&#x62f7;&#x8d1d;">
-      <Group
-         location = "group:Objective-C&#x4e2d;&#x96c6;&#x5408;&#x5bf9;&#x8c61;&#x7684;&#x62f7;&#x8d1d;"
-         name = "Objective-C&#x4e2d;&#x96c6;&#x5408;&#x5bf9;&#x8c61;&#x7684;&#x62f7;&#x8d1d;">
-         <FileRef
-            location = "group:main.m">
-         </FileRef>
-         <FileRef
-            location = "group:MyClass.h">
-         </FileRef>
-         <FileRef
-            location = "group:MyClass.m">
-         </FileRef>
-      </Group>
-      <FileRef
-         location = "group:Objective-C&#x4e2d;&#x96c6;&#x5408;&#x5bf9;&#x8c61;&#x7684;&#x62f7;&#x8d1d;.xcodeproj">
-      </FileRef>
-   </Group>
+   <FileRef
+      location = "group:&#x6570;&#x636e;&#x7ed3;&#x6784;&#x68b3;&#x7406;/LinearList/DataStructure.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Objective-C&#x4e2d;&#x96c6;&#x5408;&#x5bf9;&#x8c61;&#x7684;&#x62f7;&#x8d1d;/Objective-C&#x4e2d;&#x96c6;&#x5408;&#x5bf9;&#x8c61;&#x7684;&#x62f7;&#x8d1d;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Strong-Weak Dance/Strong-Weak Dance.xcodeproj">
+   </FileRef>
 </Workspace>
